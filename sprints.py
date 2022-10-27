@@ -24,7 +24,7 @@ def MyFunc(*list):
         return sumEvenInt/countEventInt, maxFloat
       
     if(maxFloat == -10e6):
-        if(countEventInt == 0) 
+        if(countEventInt == 0 && intFound) 
             return str("No even integers"), str("No floats")
         return str("No even integers"), maxFloat
       
